@@ -14,8 +14,10 @@
  * @since Accelerate Marketing 2.0
  */
 
+
 get_header(); ?>
 	<!-- BLOG PAGE -->
+	<pre><?php //  print_r($wp_query); exit; ?></pre> 
 	<section class="index-page">
 		<div class="site-content">
 			<div class="main-content">
