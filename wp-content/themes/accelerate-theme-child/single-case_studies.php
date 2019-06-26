@@ -33,7 +33,7 @@ get_header(); ?>
 	<article class=“case-study”>
 		<aside class="case-study-sidebar">
 	
-			<h2><?php the_title(); ?></h2>
+			<h2>Hello Arnie</h2>
 		 	<h4><?php echo $services; ?></h4>
 			<h4>Client: <?php echo $client; ?></h4>
 
