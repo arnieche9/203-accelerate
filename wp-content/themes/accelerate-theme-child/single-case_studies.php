@@ -18,7 +18,7 @@ get_header(); ?>
 	<div class="main-content" role="main">
 
 	<?php while ( have_posts() ) : the_post(); 
-		$size = "full";
+		$size = "medium";
 		
 		$services = get_field('services');
 		$client = get_field('client');
