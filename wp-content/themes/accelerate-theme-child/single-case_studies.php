@@ -18,22 +18,22 @@ get_header(); ?>
 	<div class="main-content" role="main">
 
 	<?php while ( have_posts() ) : the_post(); 
-		$size = "full";
 		
+		$size = "full";
 		$services = get_field('services');
 		$client = get_field('client');
 		$link = get_field('site-link');
 		$image_1 = get_field('image_1');
 		$image_2 = get_field('image_2');
 		$image_3 = get_field('image_3'); 
-		$custom_field = get_field('custom_field_name');?>
+		?>
 
 
 	
 	<article class=“case-study”>
 		<aside class="case-study-sidebar">
 	
-			<h2>Hello Arnie</h2>
+			<h2><?php the_title(); ?></h2>
 		 	<h4><?php echo $services; ?></h4>
 			<h4>Client: <?php echo $client; ?></h4>
 
@@ -43,6 +43,7 @@ get_header(); ?>
 		</aside>
 
 		<div class="case-study-images">
+		
 			<?php if($image_1) { 
 				echo wp_get_attachment_image($image_1, $size);
 			 } ?>
