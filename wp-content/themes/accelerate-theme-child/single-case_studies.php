@@ -19,20 +19,23 @@ get_header(); ?>
 
 	<?php while ( have_posts() ) : the_post(); 
 		$size = "full";
-		$custom_field = get_field('custom_field_name');
+		
 		$services = get_field('services');
 		$client = get_field('client');
 		$link = get_field('site-link');
 		$image_1 = get_field('image_1');
 		$image_2 = get_field('image_2');
-		$image_3 = get_field('image_3'); ?>
+		$image_3 = get_field('image_3'); 
+		$custom_field = get_field('custom_field_name');?>
 
-	<article class="case-study">
+
+	
+	<article class=“case-study”>
 		<aside class="case-study-sidebar">
-		<?php echo $custom_field; ?>
+	
 			<h2><?php the_title(); ?></h2>
-			<h5><?php echo $services; ?></h5>
-			<h6>Client: <?php echo $client; ?></h6>
+		 	<h4><?php echo $services; ?></h4>
+			<h4>Client: <?php echo $client; ?></h4>
 
 			<?php the_content(); ?>
 
@@ -40,18 +43,19 @@ get_header(); ?>
 		</aside>
 
 		<div class="case-study-images">
-		<?php if($image_1) { 			
-			echo wp_get_attachment_image( $image_1, $size );
-			} ?>
+			<?php if($image_1) { ?>			
+				<img src="<?php echo $image_1; ?>" />
+			<?php } ?>
 
-			<?php if($image_2) { 			
-			echo wp_get_attachment_image( $image_2, $size );
-			} ?>
+			<?php if($image_2) { ?>			
+				<img src="<?php echo $image_2; ?>" />
+			<?php } ?>
 
-			<?php if($image_3) { 			
-			echo wp_get_attachment_image( $image_3, $size );
-			} ?>
+			<?php if($image_2) { ?>			
+				<img src="<?php echo $image_2; ?>" />
+			<?php } ?>
 		</div>
+		
 			</article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
