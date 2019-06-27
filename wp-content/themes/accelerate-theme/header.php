@@ -16,11 +16,10 @@
 	<meta name="description" content="A WordPress portfolio project site, built with Skillcrush, featuring custom post types, custom queries, and custom fields.">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="container">
 		<div class="page-header clearfix">
