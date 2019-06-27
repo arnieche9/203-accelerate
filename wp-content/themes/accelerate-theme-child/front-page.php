@@ -32,7 +32,7 @@ get_header(); ?>
           <?php while ( have_posts() ) : the_post(); 
               $image_1 = get_field("image_1");
               $image_2 = get_field("image_2");
-              $image_3 = get_field("image_3S");
+              $image_3 = get_field("image_3");
               $size = "medium";
           ?>
           <li class="individual-featured-work">
