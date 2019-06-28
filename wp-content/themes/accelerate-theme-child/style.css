@@ -47,6 +47,15 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+.site-content h4{
+	text-align: center;
+}
+
+figure {
+	float:left;
+	width:60px;
+}
+
 /* Case Studies */
 
 aside.case-study-sidebar {
