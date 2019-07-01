@@ -2,7 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
+Author:   	Arnie B
 Author URI:   http://example.com
 Template: 	accelerate-theme
 Version:      2.0.0
@@ -23,6 +23,44 @@ Text Domain:  accelerate-theme-child
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* featured work on homepage */
+.featured-work .site-content {
+    margin: 6em auto;
+}
+.featured-work h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+
+
+
+
+.homepage-featured-work {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.individual-featured-work {
+    margin-bottom: 2em;
+}
+.individual-featured-work a {
+	display: block;
+}
+.individual-featured-work h3 {
+    font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
+}
+
+.featured-work ul{
+	display: flex;
+    width: 100%;
+	
+}
+
+/* blog post on homepage */
 .blog-post {
 	width: 50%;
 	float: left;
@@ -30,40 +68,183 @@ Text Domain:  accelerate-theme-child
 }
 
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
-    text-transform: uppercase;
-    margin: 2em 0 .5em;
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
 }
-
 .blog-post h3 {
 	font-size: 1.5em;
 }
 
-.read-more-link {
+.blog-post.read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
-.site-content h4{
-	text-align: center;
+
+/*Case Studies*/
+.case-study {
+    clear: both;
+}
+.case-study h2 {
+    font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+.case-study h4 {
+    font: 400 .875em/1.25 'Open Sans';
+    margin: 1em 0;
+}
+.case-study h4 span {
+    color: #878787;
 }
 
-figure {
-	float:left;
-	width:60px;
+aside.case-study-sidebar span {
+    color: #45ac9d;
 }
-
-/* Case Studies */
 
 aside.case-study-sidebar {
-	float:left;
-	width: 300px;
+    float:left;
+    width:300px;
+    margin: 2em 0;
 }
 
+
 div.case-study-images {
-	float:left;
-	width:60px;
+    float:left;
+    width:600px;
+	
 }
+
+div.case-study-images img {
+    width: 100%;
+	margin-bottom: 3.125em;
+	border: 1px solid #dddddd;
+	
+}
+/*END Case Studies*/
+
+/***** footer styles *****/
+
+ 
+ul.social-media-menu {
+    text-align: right;
+}
+
+ul.social-media-menu li {
+    display: inline-block;
+}
+
+ul.social-media-menu li a:before {
+    display: inline-block;
+    font-family: 'Fontawesome';
+    content: '\f0a0';
+    font-size: 1.25rem;
+    padding: .3em;
+    line-height: 1em;
+    width: 1em;
+    height:1em;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #3b3b3b;
+}
+
+
+.social-media-menu li a[href*="mailto"]::before{content:\f0a0;}
+.social-media-menu li a[href*="facebook.com"]::before{content:'\f09a';}
+.social-media-menu li a[href*="twitter.com"]::before{content:'\f099';}
+.social-media-menu li a[href*="dribble.com"]::before{content:\f017d;}
+.social-media-menu li a[href*="plus.google.com"]::before{content:\f0d5;}
+.social-media-menu li a[href*="pinterest.com"]::before{content:\f0d2;}
+.social-media-menu li a[href*="github.com"]::before{content:\f09b;}
+.social-media-menu li a[href*="tumblr.com"]::before{content:\f173;}
+.social-media-menu li a[href*="youtube.com"]::before{content:\f167;}
+.social-media-menu li a[href*="flickr.com"]::before{content:\f16e;}
+.social-media-menu li a[href*="vimeo.com"]::before{content:\f194;}
+.social-media-menu li a[href*="instagram.com"]::before{content:\f16d;}
+.social-media-menu li a[href*="linkedin.com"]::before{content:'\f0e1';}
+.social-media-menu li a[href*="codepen.com"]::before{content:\f1cb;}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+/*****end footer *****/
+
+/* Media Queries */
+@media (min-width: 768) {
+	.featured-work .site-content {
+        margin: auto auto 3em;
+    }
+    .individual-featured-work {
+    	float: left;
+        width: 33%;
+        padding: 0 .5em;
+    }
+    .blog-post {
+    	width: 50%;
+    	float: left;
+        margin-bottom: 2em;
+    }
+    aside.case-study-sidebar {
+        float: left;
+        width: 34%;
+        margin: 0 6% 0 0;
+    }
+    div.case-study-images {
+        float: left;
+        width: 60%;
+    }
+
+}
+
+    div.case-study-images img {
+	    width: 100%;
+	    height: auto;
+}
+
+
+    .blog-post {
+        width: 50%;
+        float: left;
+        margin-bottom: 2em;
+}
+
+
+

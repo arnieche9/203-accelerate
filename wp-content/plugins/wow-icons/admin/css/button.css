@@ -1,0 +1,234 @@
+#wow-colum {
+	position:absolute;
+	width: 100%;
+	overflow: hidden;
+	text-align:right;
+	right: 0;
+	bottom: 0;
+}
+#wow-colum-right {
+	float:left;
+	width:50%;
+}
+#wow-colum-left {
+	float:left;
+	width:50%;
+}
+#wow-icons-up {
+	width: 800px;
+	height: auto;
+}
+.wow_input {
+	padding: 7px;	
+	width: auto;
+}
+.wow_input select, .wow_input input[type=text] {
+	border-radius: 3px;
+	border: 1px solid #cecece;	
+	width: 150px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.wow_no_border {
+	border-bottom: none;
+	margin-top:10px;
+}
+.wow_button {
+	position:relative;
+	bottom:0px;
+	padding:13px 0 2px 8px;
+	border-top:1px solid #fff;
+	overflow:hidden;
+	width:495px;
+}
+.wow_pro_ver {
+	width: 100%;
+	max-width:309px !important;	
+}
+.wow_locked {
+	display:inline-block;
+	top: 3px;
+	position: relative;
+	cursor:pointer;
+	margin-left: 1px;
+	width: 16px;
+	height: 16px;
+	background-image:url(../img/pro_only.png);
+	background-repeat:no-repeat;
+}
+.wow_color {
+	display:inline-block;
+	top: 1px;
+	position: relative;	
+	width: 105px;
+	height: 24px;
+	background-image:url(../img/color.png);
+	background-repeat:no-repeat;
+}
+.label_option {
+	display: inline-block; 
+	float: left; 
+	width: 165px; 
+	height: 30px; 
+	line-height: 25px;
+	font-weight:700;
+}
+.has_loader {
+	width: 143px;
+}
+.wow_ico {
+	position:relative;
+	top:-2px;
+	width:20px;
+	height:20px;
+	left:-3px;
+}
+.wow_picker_ttl_ico {
+	position:relative;
+	top: 5px;
+	margin-right: 10px;
+	width:20px;
+	height:20px;
+}
+.icons-selector .selector {
+    height: 26px;
+	border-radius: 3px;
+}
+.fip-darkgrey.icons-selector .selector {
+    width: 110px !important;
+}
+.icons-selector .selected-icon {
+    width: 65px;
+}
+.icons-selector .selected-icon i {
+    line-height: 26px;
+}
+.icons-selector .selector-button i {
+    line-height: 26px;
+}
+.icons-selector .selected-icon .oi {
+    line-height: 21px;
+}
+.icons-selector .selector-search i {
+	top: 11px;
+}
+.fip-box .dashicons, .fip-box .dashicons-before::before {
+	line-height:2;
+}
+.selector-pages {
+	font-size: 12px !important;
+	margin-top: 3px;
+	color:#777;
+}
+.selector-arrow-right i, .selector-arrow-left i {
+	font-size: 16px !important;
+	color:#777 !important;
+	margin-left:10px;
+}
+.wow_loader {
+	width: 16px;
+	height: 16px;
+	display:inline-block;
+}
+.animate_spin {
+	position: relative;
+	right: 10px;
+	top: 4px;
+	width: 16px;
+	height: 16px;
+	display:inline-block;
+	background-image:url(../img/gen-loader.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+.wow_bg_shape_cont {
+	display:none;
+}
+.cp_version {
+	font-size:12px;
+	font-style:italic;
+	margin-left:5px;	
+}
+.btn {
+	vertical-align: top;
+	display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 0px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	color: #fff !important;
+	background: #37c781;
+}
+.btn:hover {
+	background: #303030;
+	text-decoration: none;
+}
+/* Color Picker */
+.wp-picker-container, .label_option_cpick {
+	margin-top:4px;
+}
+.wp-picker-holder {
+	position:absolute;
+}
+.icon_col_cont .wp-picker-holder {
+	z-index:999;
+}
+.icon_bg_shape_cont .wp-picker-holder {
+	top: 40px;
+}
+/* ThickBox */
+#TB_overlay {
+	opacity: 0.6;
+	filter: alpha(opacity=60);	
+}
+#TB_window {
+	margin-left: 0;
+	position:fixed;
+	margin: 0 auto !important;
+    left: 0% !important;
+    right: 0% !important;
+	max-width:800px;
+	background-clip: padding-box;
+}
+#TB_title {	
+	border-bottom: 2px solid #37c781;
+	height:45px;
+	color: #fff;
+	font-size: 16px;
+	color:#000;
+}
+#TB_ajaxWindowTitle {
+	line-height: 47px;
+}
+.tb-close-icon {
+	line-height: 55px;
+	color: #000;
+}
+#TB_ajaxContent {
+	width:auto !important;
+	padding: 15px;
+}
+/* Google Material Fonts */
+.fip-box .material-icons {
+	line-height:2 !important;
+	font-size: 20px !important;
+}
+@media only screen and (max-width: 640px) {
+	#TB_window {
+		height:100% !important;
+		max-height:100% !important;
+	}
+}	

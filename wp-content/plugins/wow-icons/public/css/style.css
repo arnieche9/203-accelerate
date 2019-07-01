@@ -1,0 +1,55 @@
+/* Frontend */
+/* Container */
+.wow_icon_outer {
+	text-align:left;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.wow_icon_outer_aligncenter {
+	display:block;
+	width: 100%;
+	text-align: center;
+}
+.wow_icon_outer_alignleft {
+	margin: 12px 14px 0 0;
+}
+.wow_icon_outer_alignnone {
+	margin: 0 14px 0 0;
+}
+.wow_icon_element_inner {
+	max-width: 100% !important;
+	text-align: center;
+	display: inline-block;
+	box-sizing: content-box;
+	position: relative;
+}
+/* Icons */
+.wow_icon_element_icon {
+	text-align: center;
+  	position: relative;
+}
+.wow_icon_element_icon_size_xs  {
+	font-size: 1.2em !important;
+}
+.wow_icon_element_icon_size_sm {
+	font-size: 1.6em !important;
+}
+.wow_icon_element_icon_size_md {
+	font-size: 2.15em !important;
+}
+.wow_icon_element_icon_size_nm {
+	font-size: 2.55em !important;
+}
+.wow_icon_element_icon_size_lg {
+	font-size: 3em !important;
+}
+.wow_icon_element_icon_size_xl {
+	font-size: 7em !important;
+}
+.wow_icon_element_icon_size_xxl {
+	font-size: 10em !important;
+}
+/* Dashicons */
+.wow_icon_element_inner .dashicons, .wow_icon_element_inner .dashicons-before::before {
+    display: inline !important;
+}
