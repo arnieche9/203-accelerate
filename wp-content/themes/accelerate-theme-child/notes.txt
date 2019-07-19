@@ -1,0 +1,27 @@
+	<hr size="1" width="70%" align="center" color="gray">
+
+
+	/*  
+  .four-04flex {
+  
+  width: 90%;
+  
+  max-width: 960px;
+  
+  margin: 0 auto;
+  
+  display: -webkit-box;
+  
+  display: -moz-box;
+  
+  display: -ms-flexbox;
+  
+  display: -webkit-flex;
+  
+  display: flex;
+  
+  flex-flow: row nowrap;
+  
+  justify-content: center;  
+}
+*/

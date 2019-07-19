@@ -45,8 +45,11 @@ get_header(); ?>
           <?php wp_reset_query(); ?>
       </ul>
 
+
     </div>
+ 
   </section>
+  
 
   <!---Recent Blog Post --->
   <section class="recent-posts">
@@ -54,12 +57,22 @@ get_header(); ?>
           <div class="blog-post">
               <h4>From the Blog</h4>
               <?php query_posts('posts_per_page=1'); ?>
+ 
+ 
                     <?php while ( have_posts() ) : the_post(); ?>
                           <h3><?php the_title(); ?></h3>
                           <?php the_excerpt(); ?> 
+   
                     <?php endwhile; ?> 
               <?php wp_reset_query(); ?>
-            </div>
-      </div>
+              <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
+  
+       
   </section>
+
+
 <?php get_footer(); ?>

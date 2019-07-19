@@ -10,14 +10,15 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+
 .home-page {
-	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
 #masthead {
 	background: none repeat scroll 0 0 #45ac9d;
 	
-  }
+}
 
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
@@ -33,9 +34,6 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 	margin-bottom: 2.25em;
 }
-
-
-
 
 .homepage-featured-work {
 	list-style: none;
@@ -58,6 +56,12 @@ Text Domain:  accelerate-theme-child
 	display: flex;
     width: 100%;
 	
+}
+
+.featured-work ul li{
+	margin-top:1em;
+    padding-right:50px;
+    width:90%;
 }
 
 /* blog post on homepage */
@@ -84,8 +88,8 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
-
 /*Case Studies*/
+
 .case-study {
     clear: both;
 }
@@ -110,7 +114,6 @@ aside.case-study-sidebar {
     margin: 2em 0;
 }
 
-
 div.case-study-images {
     float:left;
     width:600px;
@@ -123,10 +126,109 @@ div.case-study-images img {
 	border: 1px solid #dddddd;
 	
 }
-/*END Case Studies*/
 
-/***** footer styles *****/
+/***** Contact Form *****/
 
+
+div .nf-before-form {
+    padding-top:3em;
+
+}
+
+.nf-form-fields-required, .ninja-forms-req-symbol {
+    display:none;
+
+}
+
+#nf-field-1-wrap, #nf-field-2-wrap {
+    width:100%;
+}
+
+#nf-field-4.ninja-forms-field.nf-element {
+    background:#45ac9d;
+    width:30%;
+    float:right;
+}
+
+.body {
+    background-color: #fff;
+    width: 85%;
+    padding-left: 15%;
+}  
+
+/**** About Page *****/
+
+.about-heading {
+    width:70%;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.services-header h6 {
+    text-align:center;
+    text-transform: uppercase;   
+}
+
+.services-header p {
+    text-align:center;
+    width: 60%;
+}
+   
+.about-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+}
+
+.services-content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;  
+}
+
+.services-content:nth-child(even){
+    flex-direction: row-reverse;
+    
+}
+    
+.services-text {   
+    width: 57%;
+    padding-right:4%;
+    padding-left: 4%;
+    
+    
+}
+
+.services-text h2 {
+    font: 700 1.5em/1.5 'Open Sans Semibold';
+
+}   
+    
+.services-icon {
+    margin-top:5%;
+    padding: 1.5%;
+  
+    
+}
+    
+/****** Contact Us Section *******/
+
+#contact-us h4{ 
+    font: 700 1.5em/1.5 'Open Sans bold';     
+    text-align: center;
+    color: #000000;
+
+}
+
+.site-footer {
+    color: #909090;
+    font-size: .9em;
+    line-height: 1.5;
+}
+
+/******* Footer  *******/
  
 ul.social-media-menu {
     text-align: right;
@@ -151,7 +253,6 @@ ul.social-media-menu li a:before {
     background: #3b3b3b;
 }
 
-
 .social-media-menu li a[href*="mailto"]::before{content:\f0a0;}
 .social-media-menu li a[href*="facebook.com"]::before{content:'\f09a';}
 .social-media-menu li a[href*="twitter.com"]::before{content:'\f099';}
@@ -168,7 +269,7 @@ ul.social-media-menu li a:before {
 .social-media-menu li a[href*="codepen.com"]::before{content:\f1cb;}
 
 
-/* Text meant only for screen readers. */
+/* Text for Screen Readers */
 .screen-reader-text {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
@@ -204,47 +305,81 @@ ul.social-media-menu li a:before {
 	/* Above WP toolbar. */
 }
 
+/*** 404 page ***/
 
-/*****end footer *****/
+.error-container {
+  background-color: bisque;
+  
+   
+}
+  
+.page-404-image {
+  background: url("img/lost-dog.jpg") 
+  no-repeat  center;
+  height: 350px;
+
+}
+  
+.page-404-header {
+  text-align: center;
+  padding-bottom: 2%;
+
+}
+
+.page-404-error h1{
+  font-size:1em;
+  font-family: serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1%;
+}
+ 
+.page-404-header h2{
+  margin-top: 1%;
+  font-size:2em;
+  margin-bottom:2%;
+  font-family: 'Underdog', cursive;
+  align-items: center;
+  
+}
+
 
 /* Media Queries */
 @media (min-width: 768) {
-	.featured-work .site-content {
-        margin: auto auto 3em;
-    }
-    .individual-featured-work {
-    	float: left;
-        width: 33%;
-        padding: 0 .5em;
-    }
-    .blog-post {
-    	width: 50%;
-    	float: left;
-        margin-bottom: 2em;
-    }
-    aside.case-study-sidebar {
-        float: left;
-        width: 34%;
-        margin: 0 6% 0 0;
-    }
-    div.case-study-images {
-        float: left;
-        width: 60%;
-    }
-
+.featured-work .site-content {
+    margin: auto auto 3em;
 }
 
-    div.case-study-images img {
-	    width: 100%;
-	    height: auto;
+.individual-featured-work {
+    float: left;
+    width: 33%;
+    padding: 0 .5em;
 }
 
-
-    .blog-post {
-        width: 50%;
-        float: left;
-        margin-bottom: 2em;
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+aside.case-study-sidebar {
+    float: left;
+    width: 34%;
+    margin: 0 6% 0 0;
 }
 
+div.case-study-images {
+    float: left;
+    width: 60%;
+}
 
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
 
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}

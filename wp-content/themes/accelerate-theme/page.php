@@ -19,10 +19,9 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
-		</div><!-- .main-content -->
-
-		<?php get_sidebar(); ?>
-
+			
+		</div><!-- .main-content -->		
 	</div><!-- #primary -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
