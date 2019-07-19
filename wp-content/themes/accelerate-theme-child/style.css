@@ -68,7 +68,8 @@ Text Domain:  accelerate-theme-child
 .blog-post {
 	width: 50%;
 	float: left;
-	margin-bottom: 2em;
+    margin-bottom: 2em;
+    
 }
 
 .blog-post h4 {
@@ -87,6 +88,30 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.PI_SimpleTwitterTweets h3{
+    font-size: 1em;
+}
+
+.widget-title {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-size: 10px;
+	color: #a6a6a6;
+	text-transform: uppercase;
+    margin: 2em 0 .5em;
+    
+}
+#pi_simpletwittertweets-3{
+    background-color: #fff;
+    float: right;
+    clear: both;
+
+}
+
+
+
+
+
 
 /*Case Studies*/
 
