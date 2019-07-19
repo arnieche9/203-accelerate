@@ -10,7 +10,7 @@
 get_header(); ?>
 
     <div id="primary" class="site-content sidebar">
-	    <div id="main-content" role="main">
+	    <div id="main-content" class="bod"role="main">
         <?php while ( have_posts() ) : the_post(); 
                 $image_1 = get_field('image_1');
                 $size = "full";
@@ -22,7 +22,7 @@ get_header(); ?>
                     <h4><?php echo $services; ?></h4>
                     <?php the_excerpt(); ?>
                     <p><strong><a href="<?php the_permalink(); ?>"><span>
-                View Project</span></a></strong></p>
+                View Project></span></a></strong></p>
                 </aside>       
 		        <div class="case-study-images">	
                     <a href="<?php the_permalink(); ?>"></a>

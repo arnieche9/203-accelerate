@@ -90,17 +90,23 @@ Text Domain:  accelerate-theme-child
 
 /*Case Studies*/
 
+.bod {
+    margin: 5em 0;
+}
+
 .case-study {
     clear: both;
 }
-.case-study h2 {
+aside.case-study-sidebar  h2 {
     font: 700 1.5em/1.5 'Open Sans Semibold';
+    margin:  0 auto;
 }
-.case-study h4 {
+aside.case-study-sidebar h4 {
     font: 400 .875em/1.25 'Open Sans';
-    margin: 1em 0;
+    margin:  0 auto;
 }
-.case-study h4 span {
+
+aside.case-study-sidebar span {
     color: #878787;
 }
 
@@ -110,13 +116,16 @@ aside.case-study-sidebar span {
 
 aside.case-study-sidebar {
     float:left;
-    width:300px;
-    margin: 2em 0;
+    width:340px;
+    margin: 1em 0;
+
 }
 
 div.case-study-images {
     float:left;
     width:600px;
+    padding-left: 4em;
+    
 	
 }
 
