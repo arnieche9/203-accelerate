@@ -66,28 +66,38 @@ Text Domain:  accelerate-theme-child
 
 /* blog post on homepage */
 .blog-post {
-	width: 50%;
-	float: left;
+    width: 100%;
+    padding: 1 0px;
     margin-bottom: 2em;
-    
+    display: flex;
 }
+    
+.blog-column {
+    width: 100%;
+   
+    }
+    
 
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
 	text-transform: uppercase;
-	margin: 2em 0 .5em;
+	margin: 0em 0 .5em;
 }
 .blog-post h3 {
-	font-size: 1.5em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    
 }
 
-.blog-post.read-more-link {
+
+.read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
 
 .PI_SimpleTwitterTweets h3{
     font-size: 1em;
@@ -100,13 +110,17 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
     margin: 2em 0 .5em;
     
+    
 }
-#pi_simpletwittertweets-3{
-    background-color: #fff;
-    float: right;
-    clear: both;
+#pi_simpletwittertweets-3 {
+    padding-left: 30%;
+    width: 100%;
+
+   
 
 }
+
+
 
 
 
