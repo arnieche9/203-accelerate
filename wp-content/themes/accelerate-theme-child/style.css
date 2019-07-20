@@ -116,16 +116,7 @@ Text Domain:  accelerate-theme-child
     padding-left: 30%;
     width: 100%;
 
-   
-
 }
-
-
-
-
-
-
-
 
 /*Case Studies*/
 
@@ -207,8 +198,8 @@ div .nf-before-form {
 /**** About Page *****/
 
 .about-heading {
-    width:77%;
-    padding-left: 300px;
+    width:70%;
+    padding-left: 400px;
     text-align: center;
 }
 

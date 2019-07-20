@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="page-404-image"></div>
   
     <div class="page-404-header">
-      <h2>Need help finding your way home? </h2><a class="button" href="<?php echo site_url('/homepage') ?>">Search</a>
+      <h2>Need help finding your way home? </h2><a class="button" href="<?php echo site_url('/homepage') ?>">Go Home</a>
        
     </div>
      
