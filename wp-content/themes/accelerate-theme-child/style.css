@@ -70,26 +70,26 @@ Text Domain:  accelerate-theme-child
     padding: 1 0px;
     margin-bottom: 2em;
     display: flex;
+    justify-content: space-between;
 }
     
 .blog-column {
     width: 100%;
    
-    }
+}
     
-
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin: 0em 0 .5em;
 }
+
 .blog-post h3 {
     font-size: 1.5em;
     margin: 0 auto;
     
 }
-
 
 .read-more-link {
 	font-family: 'Montserrat';
@@ -98,24 +98,21 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
-
 .PI_SimpleTwitterTweets h3{
     font-size: 1em;
 }
 
 .widget-title {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    font-size: 10px;
+    font-size: 1.5em;
 	color: #a6a6a6;
 	text-transform: uppercase;
-    margin: 2em 0 .5em;
-    
     
 }
 #pi_simpletwittertweets-3 {
     padding-left: 30%;
     width: 100%;
-
+    
 }
 
 /*Case Studies*/
@@ -198,7 +195,7 @@ div .nf-before-form {
 /**** About Page *****/
 
 .about-heading {
-    width:70%;
+    width: 67%;
     padding-left: 400px;
     text-align: center;
 }
