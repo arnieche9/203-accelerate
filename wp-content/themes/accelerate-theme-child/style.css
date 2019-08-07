@@ -16,23 +16,24 @@ Text Domain:  accelerate-theme-child
 }
 
 #masthead {
-	background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
 	
 }
 
 .button {
-	background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
 }
 
 /* featured work on homepage */
 .featured-work .site-content {
-    margin: 6em auto;
+  margin: 6em auto;
 }
 .featured-work h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 2.25em;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  margin-bottom: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+  
 }
 
 .homepage-featured-work {
@@ -66,11 +67,13 @@ Text Domain:  accelerate-theme-child
 
 /* blog post on homepage */
 .blog-post {
-    width: 100%;
-    padding: 1 0px;
-    margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
+    padding: 1 0px;
+    width: 100%;
+    
+    
 }
     
 .blog-column {
@@ -79,10 +82,11 @@ Text Domain:  accelerate-theme-child
 }
     
 .blog-post h4 {
+    color: #a6a6a6;
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	color: #a6a6a6;
-	text-transform: uppercase;
 	margin: 0em 0 .5em;
+	text-transform: uppercase;
+	
 }
 
 .blog-post h3 {
@@ -92,9 +96,9 @@ Text Domain:  accelerate-theme-child
 }
 
 .read-more-link {
+    color: #45ac9d;
 	font-family: 'Montserrat';
-	font-weight: 700;
-	color: #45ac9d;
+	font-weight: 700;	
 	text-transform: uppercase;
 }
 
@@ -143,15 +147,17 @@ aside.case-study-sidebar span {
 
 aside.case-study-sidebar {
     float:left;
-    width:340px;
     margin: 1em 0;
+    width:340px;
+    
 
 }
 
 div.case-study-images {
     float:left;
-    width:600px;
     padding-left: 4em;
+    width:600px;
+    
     
 	
 }
@@ -182,8 +188,9 @@ div .nf-before-form {
 
 #nf-field-4.ninja-forms-field.nf-element {
     background:#45ac9d;
-    width:30%;
     float:right;
+    width:30%;
+    
 }
 
 .body {
@@ -195,9 +202,9 @@ div .nf-before-form {
 /**** About Page *****/
 
 .about-heading {
-    width: 67%;
     padding-left: 400px;
     text-align: center;
+    width: 67%;
 }
 
 .services-header h6 {
@@ -211,17 +218,19 @@ div .nf-before-form {
 }
    
 .about-container {
-    display:flex;
-    justify-content: center;
     align-items: center;
+    display:flex;
     flex-flow:row wrap;
+    justify-content: center;
+       
 }
 
 .services-content {
-    display:flex;
-    justify-content: center;
     align-items: center;
-    flex-flow:row wrap;  
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center; 
+      
 }
 
 .services-content:nth-child(even){
@@ -230,9 +239,9 @@ div .nf-before-form {
 }
     
 .services-text {   
-    width: 57%;
     padding-right:4%;
     padding-left: 4%;
+    width: 57%;
     
     
 }
@@ -365,10 +374,12 @@ ul.social-media-menu li a:before {
 .page-404-error h1{
   font-size:1em;
   font-family: serif;
-  text-transform: uppercase;
-  text-align: center;
   margin: 0 auto;
   padding-top: 1%;
+  text-transform: uppercase;
+  text-align: center;
+  
+  
 }
  
 .page-404-header h2{
@@ -398,10 +409,11 @@ ul.social-media-menu li a:before {
     float: left;
     margin-bottom: 2em;
 }
+
 aside.case-study-sidebar {
     float: left;
-    width: 34%;
     margin: 0 6% 0 0;
+    width: 34%;
 }
 
 div.case-study-images {
@@ -409,13 +421,13 @@ div.case-study-images {
     width: 60%;
 }
 
-div.case-study-images img {
-	width: 100%;
-	height: auto;
+div.case-study-images img {	
+    height: auto;
+    width: 100%;
 }
 
 .blog-post {
-    width: 50%;
     float: left;
     margin-bottom: 2em;
+    width: 50%;
 }
